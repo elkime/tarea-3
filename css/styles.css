@@ -1,0 +1,392 @@
+/*web Principal*/
+
+.fondo{
+    background: #2F303A; 
+}
+.title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;   /* 60px/44px= 1.36*/
+        /* or 136% */
+    
+        
+    color: #FFFFFF;
+    
+    /*width: 1600px;
+    height: 600px;
+    left: -4px;
+    top: 80px;
+
+   background: #2F303A;*/
+    
+}
+
+/* section nuestro equipo fondo page principal */
+.our-team {  
+    
+    background: #F5F4FA;}
+h2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;   /* 42px/36px= 1.16  */
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #212121;
+
+}
+
+h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;  /* 19px/16px= 1.18  */
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #212121;
+}
+
+.job{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;    /* 19px/16px= 1.18  */
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #757575;
+}
+
+/* Encabezado web portfolio, web Principal*/
+span { color: #212121;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;}
+
+.webstudio {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+.study{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    color: #212121;
+}
+.study:hover {      
+    color: #2196F3;
+    
+} /* CSS link hover (azul) */
+
+.study:focus {
+    color: #2196F3; 
+    } /* CSS link focus  solo letra con color (azul)  con tab */
+
+.study-active {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    /*font-size: 14px;
+    line-height: 16px; para la tarea 3 */
+
+    color: #2196F3;}/* CSS link NAV (azul) */
+
+.portfolio{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    color: #212121;
+}
+.portfolio:hover {
+    color: #2196F3;} /* CSS link hover (azul) */
+
+.portfolio:focus {
+    color: #2196F3;
+    } /* CSS link focus  (azul)  con tab */
+
+.portfolio-active {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    /*font-size: 14px;
+    line-height: 16px;  para la tarea 3 */ 
+    color: #2196F3;}   /* CSS link navegacion  toca con el mismo nombre de la clase pero agregando otra palabra nav(azul) */
+
+.contacs{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    color: #212121;
+}
+.contacs:hover {
+    color: #2196F3;
+}/* CSS link hover (azul) */
+
+.contacs:focus {
+    color: #2196F3;
+    } /* CSS link focus  (azul)  con tab */
+
+.email{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;   /* 16px/14px= 1.14  */
+    letter-spacing: 0.02em;
+
+    color: #757575;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.18;  /* 19px/16px= 1.18  */
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+.email:hover {
+    color: #2196F3;
+}/* CSS link hover (azul) */
+
+.email:focus {
+    color: #2196F3; 
+    } /* CSS link focus  (azul)  con tab */
+
+.numbertel{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.18;  /* 19px/16px= 1.18  */
+    letter-spacing: 0.02em;
+
+    color: #757575;
+}
+
+
+.numbertel:hover {
+    color: #2196F3;
+}/* CSS link hover (azul) */
+
+.numbertel:focus {
+    color: #2196F3;
+    } /* CSS link focus  (azul)  con tab */
+
+/*section button  web html principal*/
+.mybutton-1 {
+   
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;  /* 30px/16px= 1.87  */
+
+    color: #FFFFFF;
+    
+    padding: 10px 32px 10px 32px;
+
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+
+    }
+    
+.mybutton-1:hover {
+    cursor: pointer;
+    cursor: hand;
+    }    
+
+.mybutton-1:focus {
+    background: #2196F3;
+    color: #FFFFFF 
+    } /* CSS link focus  (azul)  con tab */
+
+/*section buttons  web portfolio*/
+
+.mybutton {
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+
+    color: #212121;
+    padding: 10px 32px 10px 32px;
+    
+    
+
+    background: #F5F4FA;
+    border-radius: 4px;
+
+    }
+    
+.mybutton:hover {
+    background: rgba(33, 150, 243, 1);
+    color: #FFFFFF;
+    cursor: pointer;
+    cursor: hand;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;  /* 26px/16px= 1.62  */
+}
+
+.mybutton:focus {
+    background: #2196F3; 
+    color: #FFFFFF
+    } /* CSS link focus  (azul)  con tab */
+
+/*section images */
+.text-photo{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;  /* 46px/18px= 2  */
+    /* identical to box height, or 200% */
+
+    letter-spacing: 0.06em;
+
+    color: #212121;
+}
+
+.subtext{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;    /* 30px/16px= 1.87 */
+    /* identical to box height, or 188% */
+    
+    letter-spacing: 0.03em;
+    
+    color: #757575;
+}
+/*direccion para principal and portfolio*/
+.address{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;  /* 24px/14px= 1.71 */
+    /* or 171% 
+    
+    letter-spacing: 0.03em;*/
+    
+    color: #FFFFFF;  /*Este color cuando tengamos la caja con los pading*/ 
+    
+}
+
+/*footer o pie de pagina de las dos paginas */ 
+.bottom-page{
+    /*width: 1600px;
+    height: 252px;    se deja para despues */
+    
+    left: 0px;
+    top: 1628px;
+
+background: #2F303A;
+
+}
+
+.webstudio-footer {
+    width: 145px;
+    height: 31px;
+    left: 215px;
+    top: 1688px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+
+    color: #2196F3;
+  
+}
+
+span1 { color: #FFFFFF;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;}
+
+
+body {
+    font-size: 14px;
+    font-family: 'Roboto', 'sans-serif';
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+    background-color: var(--primary-white-color);
+    }
+        
+
+a {text-decoration: none}  /*quitar subrayado en todo el body*/
+ul {list-style-type:none}  /*quitar viñetas en todo el body*/
+
+/* margenes, padding, contenedores*/
+/*body {
+    /*font-family: sans-serif;
+    line-height: 1.5;
+    background-color: #f9f9fd;
+    max-width: 1200px;
+        }*/
+
+/* menu horizontal encabezado aplicando container*/
+/* para revisar por parte del mentor*/
+
+.container-header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    align-items: center;
+    align-content: flex-start;
+      
+    } 
+   
+  
+    
+
+    /* menu horizontal botones*/
+    /*no se ha utilizado flex para los botones*/
+#button-horizontal {
+    margin:0;
+    padding:0;
+    list-style-type:none;
+
+}
+#button-horizontal li {
+    float:left;
+    }
+
